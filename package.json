@@ -1,7 +1,7 @@
 {
-  "name": "Flight-Atlas",
+  "name": "Flight Atlas",
   "version": "0.1.1",
-  "homepage": "https://flightatlas.github.io",
+  "homepage": "https://flightatlas.com",
   "private": true,
   "dependencies": {
     "react": "^16.8.4",
