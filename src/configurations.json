@@ -1,0 +1,22 @@
+{
+  "backgroundType": "plain",
+  "plainBackgroundMode": "daylight",
+  "devIntro": "Flight Atlas",
+  "devDesc": "Optimizing Global Transportation",
+  "gradientColors": "#EE7752, #E73C7E, #23A6D5, #23D5AB",
+  "backgroundImageUrl": "http://hdwpro.com/wp-content/uploads/2017/03/Art-Background-Image.png",
+  "icons": [
+    {
+      "image": "fa-regular fa-envelope",
+      "url": "https://forms.gle/r19qVbrxs3bEvnF87"
+    },
+    {
+      "image": "fab fa-x-twitter",
+      "url": "https://twitter.com/nimstr"
+    },
+    {
+      "image": "fab fa-linkedin",
+      "url": "https://www.linkedin.com/in/nimstr/"
+    }
+  ]
+}
