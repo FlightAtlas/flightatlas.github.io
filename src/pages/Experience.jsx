@@ -21,7 +21,7 @@ function Experience() {
           <div className="overview-container">
             <div className="overview-text">
               <p>
-                Airbus, Google, and additional confidential partners.  Commercial aviation autonomy, 
+                Airbus, Google, and additional confidential partners.  Commercial aviation autonomy,  
                 data orchestration for labeling at scale.  Embedded inference for perception stacks.
               </p>
             </div>
@@ -88,6 +88,7 @@ function Experience() {
             <h2>Key Achievements</h2>
             <div className="achievements-content">
               <div className="achievement">
+                <h3>Engineering Leadership</h3>
                 <div className="achievement-image">
                   <img 
                     src="https://images.ctfassets.net/enls6777jgmn/6ROCJvHkdXo2GuFCBrU3IC/66ed40b81dfbf0043c6ae6dfd0727535/KSFO_28L_evening_summer.png?q=85&fm=jpg&fl=progressive"
@@ -95,35 +96,31 @@ function Experience() {
                     className="achievement-img"
                   />
                 </div>
-                <div className="achievement-content">
-                  <h3>Engineering Leadership</h3>
-                  <p>
-                    Led platform and labeling teams at Airbus on autonomy programs, building end-to-end data systems 
-                    for flight test operations.  Productionized internal robotics libraries that enabled 
-                    broader engineering teams to contribute effectively to autonomous systems development.
-                  </p>
-                </div>
+                <p>
+                  Led platform and labeling teams at Airbus on autonomy programs, building end-to-end data systems 
+                  for flight test operations.  Productionized internal robotics libraries that enabled 
+                  broader engineering teams to contribute effectively to autonomous systems development.
+                </p>
               </div>
               
               <div className="achievement">
+                <h3>Scalable Data Infrastructure</h3>
                 <div className="achievement-image">
                   <img 
-                    src="https://docs.ros.org/en/foxy/_images/Nodes-TopicandService.gif"
-                    alt="ROS2 Nodes and Topics Architecture"
+                    src="/images/data-infrastructure.png"
+                    alt="Data Infrastructure Architecture"
                     className="achievement-img"
                   />
                 </div>
-                <div className="achievement-content">
-                  <h3>Scalable Data Infrastructure</h3>
-                  <p>
-                    Designed and implemented data orchestration systems supporting large-scale machine learning 
-                    operations, enabling efficient labeling workflows and model training pipelines 
-                    across distributed teams and computing resources.
-                  </p>
-                </div>
+                <p>
+                  Designed and implemented data orchestration systems supporting large-scale machine learning 
+                  operations, enabling efficient labeling workflows and model training pipelines 
+                  across distributed teams and computing resources.
+                </p>
               </div>
               
               <div className="achievement">
+                <h3>System Integration</h3>
                 <div className="achievement-image">
                   <img 
                     src="https://images.ctfassets.net/enls6777jgmn/42zaRCtDOY71vWkyD8uPNq/ac6b99260135528ed0ba541317690023/Acubed_AI_Autonomy_King_Air_C90_mods.jpg?q=85&fm=jpg&fl=progressive&w=900"
@@ -131,14 +128,11 @@ function Experience() {
                     className="achievement-img"
                   />
                 </div>
-                <div className="achievement-content">
-                  <h3>System Integration</h3>
-                  <p>
-                    Successfully integrated complex sensor systems, perception algorithms, and navigation 
-                    solutions into flight-certified platforms, meeting stringent aerospace reliability 
-                    and performance requirements.
-                  </p>
-                </div>
+                <p>
+                  Successfully integrated complex sensor systems, perception algorithms, and navigation 
+                  solutions into flight-certified platforms, meeting stringent aerospace reliability 
+                  and performance requirements.
+                </p>
               </div>
             </div>
           </div>
