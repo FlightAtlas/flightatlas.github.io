@@ -1,0 +1,25 @@
+[build]
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "nft"
+
+# Redirect all page routes to index.html for client-side routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  conditions = {Role = ["editor"]}
+
+# Handle API routes
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+# Handle contact form
+[[redirects]]
+  from = "/.netlify/functions/contact"
+  to = "/.netlify/functions/contact"
+  status = 200
+  headers = {X-Frame-Options = "DENY"}

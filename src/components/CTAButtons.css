@@ -1,0 +1,99 @@
+.cta-buttons {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.cta-primary,
+.cta-secondary {
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-family: var(--font-heading);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 2px solid transparent;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  flex-shrink: 0;
+  letter-spacing: -0.01em;
+}
+
+.cta-primary {
+  background: #212121;
+  color: #ffffff;
+  border-color: #212121;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  border: 2px solid #212121;
+}
+
+.cta-primary:hover {
+  background: #4A90E2;
+  color: #ffffff;
+  border: none;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(74, 144, 226, 0.4);
+}
+
+.cta-secondary {
+  background: #000000;
+  color: #ffffff;
+  border: 2px solid #000000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+}
+
+/* Ensure visibility on light backgrounds */
+.cta-section .cta-secondary,
+.footer .cta-secondary,
+.about-cta .cta-secondary,
+.contact-cta .cta-secondary,
+.services-cta .cta-secondary,
+.experience-cta .cta-secondary {
+  background: #ffffff !important;
+  color: #2196F3 !important;
+  border: 2px solid #2196F3 !important;
+}
+
+.cta-secondary:hover {
+  background: #333333;
+  color: #ffffff;
+  border-color: #333333;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* Hero variant styling - only applies to buttons with hero-secondary class */
+.cta-secondary.hero-secondary {
+  background: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+}
+
+.cta-secondary.hero-secondary:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  border-color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(255, 255, 255, 0.4);
+}
+
+@media (max-width: 768px) {
+  .cta-buttons {
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    gap: 0.5rem;
+  }
+  
+  .cta-primary,
+  .cta-secondary {
+    font-size: 0.85rem;
+    padding: 0.6rem 0.8rem;
+    flex: 1;
+    max-width: 45%;
+  }
+}

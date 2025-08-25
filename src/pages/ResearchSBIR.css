@@ -1,0 +1,386 @@
+.research-page {
+  min-height: 100vh;
+}
+
+.research-hero {
+  background: linear-gradient(135deg, #4A90E2 0%, #2E7CE4 50%, #1565C0 100%);
+  color: #ffffff;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.research-hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.research-hero h1 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'SF Pro Display', system-ui, sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  letter-spacing: -0.025em;
+}
+
+.research-hero p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', system-ui, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #ecf0f1;
+  letter-spacing: -0.015em;
+}
+
+.research-overview {
+  padding: 3rem 2rem;
+  background: #2196F3;
+  color: #ffffff;
+}
+
+.overview-container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.research-overview h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.overview-text {
+  font-size: 1.3rem;
+  line-height: 1.7;
+  font-weight: 500;
+}
+
+.research-areas {
+  padding: 4rem 2rem;
+  background: #f8f9fa;
+}
+
+.areas-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.research-areas h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.areas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.area-item {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-left: 4px solid #2196F3;
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.area-item:hover {
+  transform: translateY(-4px);
+}
+
+.area-item h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+.area-item p {
+  color: #495057;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.target-agencies {
+  padding: 4rem 2rem;
+  background: #ffffff;
+}
+
+.agencies-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.target-agencies h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.agencies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.agency-item {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  border-top: 4px solid #3498db;
+  text-align: center;
+}
+
+.agency-item h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.agency-item p {
+  color: #495057;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.example-topics {
+  padding: 4rem 2rem;
+  background: #f8f9fa;
+}
+
+.topics-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.example-topics h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.topics-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.topic-item {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-left: 4px solid #e74c3c;
+  text-align: center;
+}
+
+.topic-item h4 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.topic-item p {
+  color: #495057;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.partnership-benefits {
+  padding: 4rem 2rem;
+  background: #ffffff;
+}
+
+.benefits-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.partnership-benefits h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.benefit-item {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  border-top: 4px solid #f39c12;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 250px;
+}
+
+.benefit-emoji {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  flex-shrink: 0;
+}
+
+.benefit-item h3 {
+  flex-shrink: 0;
+  margin-bottom: 1rem;
+}
+
+.benefit-item p {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  margin: 0;
+}
+
+.benefit-item h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.benefit-item p {
+  color: #495057;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.research-cta {
+  padding: 4rem 2rem;
+  background: #2c3e50;
+  color: #ffffff;
+  text-align: center;
+}
+
+.research-cta-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.research-cta h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.research-cta p {
+  font-size: 1.2rem;
+  color: #ecf0f1;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cta-primary,
+.cta-secondary {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 2px solid transparent;
+  font-size: 1rem;
+}
+
+.cta-primary {
+  background: #2196F3;
+  color: #ffffff;
+}
+
+.cta-primary:hover {
+  background: #4A90E2;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(74, 144, 226, 0.4);
+}
+
+.cta-secondary {
+  background: #ffffff;
+  color: #2196F3;
+  border-color: #2196F3;
+}
+
+.cta-secondary:hover {
+  background: #2196F3;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(33, 150, 243, 0.4);
+}
+
+@media (max-width: 768px) {
+  .research-hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .research-hero p {
+    font-size: 1.2rem;
+  }
+  
+  .research-overview h2 {
+    font-size: 2rem;
+  }
+  
+  .overview-text {
+    font-size: 1.1rem;
+  }
+  
+  .areas-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .area-item,
+  .topic-item {
+    padding: 1.5rem;
+  }
+  
+  .agencies-grid,
+  .benefits-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  
+  .research-areas h2,
+  .target-agencies h2,
+  .example-topics h2,
+  .partnership-benefits h2,
+  .research-cta h2 {
+    font-size: 2rem;
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .cta-primary,
+  .cta-secondary {
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+  }
+}

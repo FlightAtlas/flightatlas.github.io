@@ -1,0 +1,172 @@
+.why-section {
+  padding: 4rem 2rem;
+  background: #ffffff;
+}
+
+.why-container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.why-section h2 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'SF Pro Display', system-ui, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 3rem;
+  letter-spacing: -0.025em;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.why-item {
+  padding: 2rem;
+  background: #f8f9fa;
+  border-radius: 0.75rem;
+  border-left: 4px solid #2196F3;
+}
+
+.why-item h3 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'SF Pro Display', system-ui, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
+}
+
+.why-item p {
+  color: #495057;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.gov-ready-section {
+  padding: 3rem 2rem;
+  background: #2c3e50;
+  color: #ffffff;
+}
+
+.gov-ready-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.gov-ready-section h2 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'SF Pro Display', system-ui, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: #ffffff;
+  letter-spacing: -0.025em;
+}
+
+.gov-ready-content p {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #ecf0f1;
+  margin-bottom: 1.5rem;
+}
+
+.compliance-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.compliance-list li {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #ecf0f1;
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  text-indent: -1.5rem;
+}
+
+.vision-section {
+  padding: 4rem 2rem;
+  background: #f8f9fa;
+}
+
+.vision-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.vision-section h2 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'SF Pro Display', system-ui, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+  letter-spacing: -0.025em;
+}
+
+.vision-content p {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #495057;
+}
+
+.cta-section {
+  padding: 4rem 2rem;
+  background: #ffffff;
+}
+
+.cta-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cta-section h2 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'SF Pro Display', system-ui, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+  letter-spacing: -0.025em;
+}
+
+@media (max-width: 768px) {
+  .why-section h2,
+  .gov-ready-section h2,
+  .vision-section h2,
+  .cta-section h2 {
+    font-size: 2rem;
+  }
+  
+  .why-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .why-item {
+    padding: 1.5rem;
+  }
+  
+  .gov-ready-content p,
+  .vision-content p {
+    font-size: 1.1rem;
+  }
+  
+  .compliance-list {
+    padding-left: 1.5rem;
+  }
+  
+  .compliance-list li {
+    padding-left: 2.5rem;
+    text-indent: -1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
