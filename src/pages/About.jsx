@@ -37,8 +37,10 @@ function About() {
                   <span>NR</span>
                 </div>
               </div>
-              <h2>Our Founder</h2>
-              <h3>Nima Rahnemoon</h3>
+              <div className="founder-info">
+                <h2>Our Founder</h2>
+                <h3>Nima Rahnemoon</h3>
+              </div>
             </div>
             <div className="bio-content">
               <p>
