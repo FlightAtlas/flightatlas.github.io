@@ -211,15 +211,6 @@ function ResearchSBIR() {
           </div>
         </section>
 
-        <section className="defense-compliance">
-          <div className="compliance-container">
-            <h2>Defense-Grade Compliance</h2>
-            <p className="compliance-text">
-              U.S. Person with clearance eligibility with full compliance framework ready for engagement: (1) ITAR/EAR compliant handling under NDA, (2) SAM registration and UEI number, (3) CAGE code available, and (4) NAICS coverage for robotics R&D/software.
-            </p>
-          </div>
-        </section>
-
         <section className="research-cta">
           <div className="research-cta-content">
             <h2>Partner with Flight Atlas on Proposals</h2>

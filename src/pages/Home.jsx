@@ -64,14 +64,8 @@ function Home() {
           <h2>Defense-Grade Compliance</h2>
           <div className="gov-ready-content">
             <p>
-              U.S. Person with clearance eligibility.  Full compliance framework ready for engagement:
+              U.S. Person with clearance eligibility with full compliance framework ready for engagement: ITAR/EAR compliant handling under NDA, SAM registration and UEI number, CAGE code available, and NAICS coverage for robotics R&D/software.
             </p>
-            <ul className="compliance-list">
-              <li>• ITAR/EAR compliant handling under NDA</li>
-              <li>• SAM registration and UEI number</li>
-              <li>• CAGE code available</li>
-              <li>• NAICS coverage for robotics R&D/software</li>
-            </ul>
           </div>
         </div>
       </section>

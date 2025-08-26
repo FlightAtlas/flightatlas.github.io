@@ -91,8 +91,8 @@ function Experience() {
                 <h3>Engineering Leadership</h3>
                 <div className="achievement-image">
                   <img 
-                    src="https://images.ctfassets.net/enls6777jgmn/6ROCJvHkdXo2GuFCBrU3IC/66ed40b81dfbf0043c6ae6dfd0727535/KSFO_28L_evening_summer.png?q=85&fm=jpg&fl=progressive"
-                    alt="KSFO Airport Evening View"
+                    src="/images/labeled_runway.png"
+                    alt="Labeled Runway Detection"
                     className="achievement-img"
                   />
                 </div>
@@ -107,8 +107,8 @@ function Experience() {
                 <h3>Scalable Data Infrastructure</h3>
                 <div className="achievement-image">
                   <img 
-                    src="/images/data-infrastructure.png"
-                    alt="Data Infrastructure Architecture"
+                    src="/images/labeling_pipeline.png"
+                    alt="Data Labeling Pipeline"
                     className="achievement-img"
                   />
                 </div>
@@ -123,8 +123,8 @@ function Experience() {
                 <h3>System Integration</h3>
                 <div className="achievement-image">
                   <img 
-                    src="https://images.ctfassets.net/enls6777jgmn/42zaRCtDOY71vWkyD8uPNq/ac6b99260135528ed0ba541317690023/Acubed_AI_Autonomy_King_Air_C90_mods.jpg?q=85&fm=jpg&fl=progressive&w=900"
-                    alt="Autonomous Aircraft System Integration"
+                    src="/images/airplane_rack.png"
+                    alt="Aircraft System Integration"
                     className="achievement-img"
                   />
                 </div>
