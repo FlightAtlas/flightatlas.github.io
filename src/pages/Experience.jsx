@@ -1,7 +1,11 @@
+import { useState } from 'react'
 import { Helmet } from 'react-helmet-async'
+import ContactModal from '../components/ContactModal'
 import './Experience.css'
 
 function Experience() {
+  const [isModalOpen, setIsModalOpen] = useState(false)
+
   return (
     <>
       <Helmet>
@@ -151,16 +155,20 @@ function Experience() {
               >
                 Book a meeting
               </a>
-              <a 
-                href="mailto:nima@flightatlas.com?subject=Experience%20Discussion&body=I'd%20like%20to%20discuss%20how%20your%20experience%20applies%20to%20my%20project."
+              <button 
+                onClick={() => setIsModalOpen(true)}
                 className="cta-secondary"
               >
                 Discuss experience
-              </a>
+              </button>
             </div>
           </div>
         </section>
       </div>
+      <ContactModal 
+        isOpen={isModalOpen} 
+        onClose={() => setIsModalOpen(false)} 
+      />
     </>
   )
 }

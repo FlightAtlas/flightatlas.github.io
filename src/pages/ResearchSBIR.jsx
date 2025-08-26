@@ -1,7 +1,11 @@
+import { useState } from 'react'
 import { Helmet } from 'react-helmet-async'
+import ContactModal from '../components/ContactModal'
 import './ResearchSBIR.css'
 
 function ResearchSBIR() {
+  const [isModalOpen, setIsModalOpen] = useState(false)
+
   return (
     <>
       <Helmet>
@@ -227,16 +231,20 @@ function ResearchSBIR() {
               >
                 Schedule Discussion
               </a>
-              <a 
-                href="mailto:nima@flightatlas.com?subject=SBIR%20Partnership%20Inquiry&body=I'd%20like%20to%20discuss%20potential%20SBIR%20collaboration.%0A%0AProgram:%0AAgency:%0ADeadline:%0AScope:"
+              <button 
+                onClick={() => setIsModalOpen(true)}
                 className="cta-secondary"
               >
                 Partnership Inquiry
-              </a>
+              </button>
             </div>
           </div>
         </section>
       </div>
+      <ContactModal 
+        isOpen={isModalOpen} 
+        onClose={() => setIsModalOpen(false)} 
+      />
     </>
   )
 }
