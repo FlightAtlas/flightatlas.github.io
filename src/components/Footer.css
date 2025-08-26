@@ -44,7 +44,7 @@
 
 @media (max-width: 768px) {
   .footer {
-    padding: 1rem 0;
+    padding: 1rem 0 0.5rem 0;
   }
   
   .footer-content {
@@ -53,16 +53,23 @@
   
   .footer-links {
     gap: 1.5rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0.75rem;
     font-size: 0.8rem;
+    margin-bottom: 0;
   }
   
   .footer-links a {
     font-size: 0.8rem;
   }
   
+  .footer-info {
+    margin-top: 0.75rem;
+    margin-bottom: 0;
+  }
+  
   .footer-info p {
     font-size: 0.75rem;
     white-space: nowrap;
+    margin: 0;
   }
 }
