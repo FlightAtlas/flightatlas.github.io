@@ -264,6 +264,32 @@
   font-size: 0.95rem;
 }
 
+.defense-compliance {
+  padding: 4rem 2rem;
+  background: #f8f9fa;
+}
+
+.compliance-container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.defense-compliance h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.compliance-text {
+  font-size: 1.2rem;
+  color: #495057;
+  line-height: 1.7;
+  font-weight: 500;
+}
+
 .research-cta {
   padding: 4rem 2rem;
   background: #2c3e50;
@@ -360,7 +386,8 @@
   }
   
   .agencies-grid,
-  .benefits-grid {
+  .benefits-grid,
+  .compliance-grid {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
   
@@ -368,8 +395,13 @@
   .target-agencies h2,
   .example-topics h2,
   .partnership-benefits h2,
+  .defense-compliance h2,
   .research-cta h2 {
     font-size: 2rem;
+  }
+  
+  .compliance-intro {
+    font-size: 1.1rem;
   }
   
   .cta-buttons {
